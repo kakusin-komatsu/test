@@ -1,0 +1,162 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+  		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+
+    <meta name="keywords" content="カクシン,小松">
+    <meta name="description" content="カクシン小松の作成したサイトをご紹介します。">
+    <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1, maximum-scale=1, user-scalable=yes">
+    <title>カクシン小松のポートフォリオ</title>
+  
+    <!-- Facebookの表示されるよ OGP -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="小松だよ">
+    <meta property="og:image" content="images/ogp.png">
+    <meta property="og:description" content="小松のポートフォリオだよ">
+    <!-- Facebookの表示されるよ OGP -->
+  
+    <link href="css/common.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>    
+
+  </head>
+  <body>
+
+<div class="test_header">
+  <div><img src="images/logo.png"></div>
+  <h1>KOMATSU KENTA</h1>
+  <p>UI/UX Designer</p>
+</div>
+
+<h2 class="test1">WORKS</h2>
+
+<ul class="test2 clearfix">
+ <li>
+   <a href="aaa">
+     <p class="test_img"><img src="http://placehold.it/300x200" alt=""></p>
+     <p class="test_head">TITLE</p>
+     <p class="test_text">TEXT</p>
+     <p class="test_year">2013</p>
+   </a>
+ </li>
+ <li>
+   <a href="aaa">
+     <p class="test_img"><img src="http://placehold.it/300x200" alt=""></p>
+     <p class="test_head">TITLE</p>
+     <p class="test_text">TEXT</p>
+     <p class="test_year">2013</p>
+   </a>
+ </li>
+ <li>
+   <a href="aaa">
+     <p class="test_img"><img src="http://placehold.it/300x200" alt=""></p>
+     <p class="test_head">TITLE</p>
+     <p class="test_text">TEXT</p>
+     <p class="test_year">2013</p>
+   </a>
+ </li>
+ <li>
+   <a href="aaa">
+     <p class="test_img"><img src="http://placehold.it/300x200" alt=""></p>
+     <p class="test_head">TITLE</p>
+     <p class="test_text">TEXT</p>
+     <p class="test_year">2013</p>
+   </a>
+ </li>
+ <li>
+   <a href="aaa">
+     <p class="test_img"><img src="http://placehold.it/300x200" alt=""></p>
+     <p class="test_head">TITLE</p>
+     <p class="test_text">TEXT</p>
+     <p class="test_year">2013</p>
+   </a>
+ </li>
+ <li>
+   <a href="aaa">
+     <p class="test_img"><img src="http://placehold.it/300x200" alt=""></p>
+     <p class="test_head">TITLE</p>
+     <p class="test_text">TEXT</p>
+     <p class="test_year">2013</p>
+   </a>
+ </li>
+ <li>
+   <a href="aaa">
+     <p class="test_img"><img src="http://placehold.it/300x200" alt=""></p>
+     <p class="test_head">TITLE</p>
+     <p class="test_text">TEXT</p>
+     <p class="test_year">2013</p>
+   </a>
+ </li>
+ <li>
+   <a href="aaa">
+     <p class="test_img"><img src="http://placehold.it/300x200" alt=""></p>
+     <p class="test_head">TITLE</p>
+     <p class="test_text">TEXT</p>
+     <p class="test_year">2013</p>
+   </a>
+ </li>
+ <li>
+   <a href="aaa">
+     <p class="test_img"><img src="http://placehold.it/300x200" alt=""></p>
+     <p class="test_head">TITLE</p>
+     <p class="test_text">TEXT</p>
+     <p class="test_year">2013</p>
+   </a>
+ </li>
+ <li>
+   <a href="aaa">
+     <p class="test_img"><img src="http://placehold.it/300x200" alt=""></p>
+     <p class="test_head">TITLE</p>
+     <p class="test_text">TEXT</p>
+     <p class="test_year">2013</p>
+   </a>
+ </li>
+ <li>
+   <a href="aaa">
+     <p class="test_img"><img src="http://placehold.it/300x200" alt=""></p>
+     <p class="test_head">TITLE</p>
+     <p class="test_text">TEXT</p>
+     <p class="test_year">2013</p>
+   </a>
+ </li>
+</ul>
+
+<div class="test_header">
+  <p>COPYRIGHT © KENTA KOMATSU. ALL RIGHTS RESERVED.</p>
+</div>
+
+<p class="pagetop" style="display: block;">
+  <a href="#"><span>RETURN</span></a>
+</p>
+
+  <script>    
+    $(function(){
+      $('.pagetop').hide();
+      $(function () {
+        $(window).scroll(function () {
+          if ($(this).scrollTop() > 100) {
+            $('.pagetop').fadeIn('fast');
+          } else {
+            $('.pagetop').fadeOut('fast');
+          }
+        });
+        //フッター固定
+        $(window).bind("scroll", function() {
+          scrollHeight = $(document).height();
+          scrollPosition = $(window).height() + $(window).scrollTop();
+        });
+        //スムーススクロール
+        $('.pagetop a').click(function () {
+          $('body,html').animate({
+            scrollTop: 0
+          }, 500);
+          return false;
+        });
+      });
+    });
+  </script>
+  
+  </body>
+</html>
